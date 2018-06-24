@@ -1,0 +1,113 @@
+#main .wrap1 {
+	margin:12px 0 10px 0;
+}
+#main div.wrapContent {
+	border-bottom:1px solid #ccc;
+	background:#fbfbfb;
+	margin-bottom:10px;
+	padding-bottom: 20px;
+}
+#main div.wrapContent div.left {
+    border-right:1px solid #e9e9e9;
+    width:160px;
+    float:left;
+}
+#main div.wrapContent div.left div.face {
+	text-align:center;
+}
+#main div.wrapContent div.left div.face img {
+	margin:20px 0 0 0;
+}
+#main div.wrapContent div.left div.name {
+	text-align:center;
+	margin:5px 0;
+}
+#main div.wrapContent div.left div.name a {
+	color:#333;
+	font-weight:bold;
+}
+#main div.wrapContent div.left div.level {
+	text-align:center;
+}
+#main div.wrapContent div.left div.operate {
+	width:120px;
+	margin:3px auto 0 auto;
+	padding:0 0 10px 0;
+}
+#main div.wrapContent div.left div.operate a {
+	color: #999;
+    display: inline-block;
+    height:20px;
+    line-height:20px;
+    text-indent:10px;
+}
+.quote {
+	background:#dedede;
+	padding:10px;
+	border:1px solid #bbb;
+	color:#121212;
+	margin:10px 0 0 0;
+}
+.quote .title {
+	font-weight:bold;
+}
+#main div.wrapContent div.left div.operate a.left {
+	float:left;
+	background:url(../image/bg.png) -150px 6px no-repeat;
+}
+#main div.wrapContent div.left div.operate a.right {
+	float:right;
+	background:url(../image/bg.png) -150px -25px no-repeat;
+	padding-left:5px;
+}
+#main div.wrapContent div.right {
+	background:#fff;
+    float:right;
+    width:759px;
+    padding:5px 20px 20px 20px;
+    border-left:1px solid #e9e9e9;
+    margin-left:-1px;
+}
+#main div.wrapContent div.right div.title {
+	border-bottom:1px dashed #dddddd;
+	padding:10px 0px 12px 0;
+}
+#main div.wrapContent div.right div.title h2 {
+	display:inline-block;
+	float:left;
+	font-size:16px;
+}
+#main div.wrapContent div.right div.title span {
+	display:inline-block;
+	float:right;
+	color:#999;
+}
+#main div.wrapContent div.right div.pubdate {
+	margin:10px 0 30px 0;
+}
+#main div.wrapContent div.right div.pubdate .date {
+	color:#666;
+}
+#main div.wrapContent div.right div.pubdate .floor {
+	color:#999;
+	float:right;
+}
+#main div.wrapContent div.right div.pubdate .floor a {
+	color:#666;
+	font-size:13px;
+}
+div.content {
+	line-height:180%;
+}
+div.content,div.content div,div.content ul,div.content ol,div.content li,div.content dl,div.content dt,div.content dd,div.content h1,div.content h2,div.content h3,div.content h4,div.content h5,div.content h6,div.content form,div.content input,div.content textarea,div.content p {
+	font-size:14px;
+	color:#333;
+}
+.wrap1 .pages {
+	float:left;
+}
+.wrap1 .btn {
+	float:right;
+}
+
+

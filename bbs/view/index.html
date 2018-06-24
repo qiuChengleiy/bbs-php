@@ -1,0 +1,113 @@
+<?php session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>BBS首页</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+     <!-- 用PHP常量定义 引入样式文件 -->
+	<link rel="stylesheet" type="text/css" href="<?php echo DIR_PUBLIC;?>/css/public.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo DIR_PUBLIC;?>/css/index.css" />
+	<style type="text/css"></style>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<div class="header_wrap">
+		<div id="header" class="auto">
+			<div class="logo">BBS</div>
+			<div class="nav">
+				<a class="hover">首页</a>
+			</div>
+			<div class="serarch">
+				<form>
+					<input class="keyword" type="text" name="keyword" placeholder="搜索其实很简单" />
+					<input class="submit" type="submit" name="submit" value="" />
+				</form>
+			</div>
+			<div class="login" style="width: 400px;">
+			<!-- 	用户信息登录判断 -->
+				  <?php  
+				  	if(isset($_COOKIE['user'])) {
+				  		echo '<a href="./model/userInfo.php">&nbsp;欢迎会员' . ' ' . $_COOKIE['user'] . '</a>' . ' ' . '<a href="./model/logout.php?page=index">注销</a>';
+				  }else {
+				  	    echo '<a href="./model/login.php">&nbsp;' . '登录' . '</a>' . ' ' . '<a href="./model/register.php">注册</a>&nbsp;';
+				} 
+				   ?>
+				 <a href="./model/publish.php">我要发帖</a>  
+			</div>
+		</div>
+	</div>
+	<div style="margin-top:55px;"></div>
+	<div id="hot" class="auto">
+		<div class="title">消息</div>
+		<ul class="newslist">
+			<!-- 20条 -->
+			<li><a href="#">[要闻]</a> <a href="#">南通今年江苏高招计划公布 预计本科将超过20.3万人</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">梅雨今起发威桑拿天接着就来 最高温可达35℃</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">南京长江大桥桥头堡修葺一新 正式亮相与市民见面</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">@江苏考生今晚8点 你可通过这些渠道查询高考成绩</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">南京租房客六成是小年轻 新街口、仙林成最热区域</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">连盐铁路、青连铁路合并为青盐线 预计11月开通</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">苏州规范外卖人员交通行为 给外卖车安装统一牌照</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">67岁球迷看世界杯太激动 进了重症监护室</a></li>
+			<li><a href="#">[要闻]</a> <a href="#">生死10秒！女子被撞卷入车底 市民合力抬车救人</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">南通一槽罐车与轿车相撞 一名中学校长身亡</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">章丘铁锅从爆红到滞销 “公地悲剧”当真无解？</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">索酬不成大妈怒摔苹果手机，拾金不昧过时了？</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">对摔狗者死亡威胁：不爱人何以爱狗？</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">“手机被打爆”是网红官员的甜蜜负担</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">出事的电动车横竖都能讹点吗？</a></li>
+			<li><a href="#">[今日话题]</a> <a href="#">交通协管员劳累猝死，该不该号召学习</a></li>	
+		</ul>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="box auto">
+		<div class="title">
+			财经
+		</div>
+		<div class="classList">
+			<div style="padding:10px 0;">暂无该模块</div>
+		</div>
+	</div>
+	<div class="box auto">
+		<div class="title">
+			娱乐
+		</div>
+		<div class="classList">
+			<div style="padding:10px 0;">暂无该模块</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	<div class="box auto">
+		<div class="title">
+			体育
+		</div>
+		<div class="classList">
+			<div class="childBox new">
+				<h2><a href="#">A队</a> <span>(今日38)</span></h2>
+				帖子：1939539<br />
+			</div>
+			<div class="childBox old">
+				<h2><a href="#">B队</a> <span>(今日38)</span></h2>
+				帖子：1939539<br />
+			</div>
+			<div class="childBox lock">
+				<h2><a href="#">C队</a> <span>(今日38)</span></h2>
+				帖子：1939539<br />
+			</div>
+			<div class="childBox new">
+				<h2><a href="#">D队</a> <span>(今日38)</span></h2>
+				帖子：1939539<br />
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	<div id="footer" class="auto">
+		<div class="bottom">
+			<a>BBS论坛</a>
+		</div>
+		<div class="copyright">Powered by bbs ©2018 bbs.com</div>
+	</div>
+</body>
+</html>

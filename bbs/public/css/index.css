@@ -1,0 +1,108 @@
+#bbs_info_box {
+	color: rgba(0, 0, 0, 0.6);
+}
+#bbs_info_box span.line {
+	background: none repeat scroll 0 0 #ccc;
+    display: inline-block;
+    height: 12px;
+    margin: 3px 10px 0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: top;
+    width: 1px;
+}
+#bbs_info_box span a {
+	color:#105cb6;
+}
+#hot {
+	margin-top:10px;
+	background:#fff;
+	padding:0 0 10px 0;
+}
+#hot .title {
+	height:34px;
+	color:#ff0000;
+	font-weight:bold;
+	border-bottom:1px solid #e4e4e4;
+	line-height:40px;
+	text-indent:10px;
+	margin:0 0 10px 0;
+}
+#hot .newslist li {
+	width:480px;
+	float:left;
+	text-indent:15px;
+	line-height:23px;
+}
+#hot .newslist li a {
+	color:#333;
+}
+.box {
+	border-left:1px solid #f1f1f1;
+	border-right:1px solid #f1f1f1;
+	margin-top:-1px;
+}
+.box .title {
+	background:#f7f7f7;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	padding:7px 10px;
+	color:#105cb6;
+	font-weight:bold;
+}
+
+.box .classList {
+	background:#ffffff;
+	padding:0 15px;
+}
+.box .classList .childBox {
+	width:264px;
+	height:51px;
+	padding:10px 0 10px 46px;
+	border-bottom:1px dashed #e4e4e4;
+	float:left;
+	background:pink;
+	color:#444444;
+}
+.box .classList .childBox a span {
+	color:#333;
+}
+.box .classList .childBox h2 {
+	padding-bottom:3px;
+}
+.box .classList .childBox h2 a {
+	color:#333;
+	font-weight:bold;
+}
+.box .classList .childBox h2 span {
+	color:#ff5500;
+	font-weight:normal;
+}
+.box .classList .new {
+	background:url(../image/new.gif) 0px center no-repeat;
+}
+.box .classList .old {
+	background:url(../image/old.gif) 0px center no-repeat;
+}
+.box .classList .lock {
+	background:url(../image/lock.gif) 0px center no-repeat;
+}
+#flink {
+	margin-top:15px;
+	background:#fff;
+	border-bottom:1px solid #d3d3d3;
+}
+#flink h2 {
+	padding:10px 0;
+	font-weight:bold;
+	color:#333;
+	border-bottom:1px solid #d3d3d3;
+	text-indent:10px;
+}
+#flink .flinkList {
+	width:940px;
+	padding:10px;
+}
+#flink .flinkList a {
+	color:#333333;
+}

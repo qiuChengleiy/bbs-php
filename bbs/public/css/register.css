@@ -1,0 +1,73 @@
+#register {
+	background:#fff;
+}
+#register h2 {
+	border-bottom: 1px solid #ededed;
+    color: #666;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+#register form {
+	color:#333;
+}
+#register form label {
+	display:block;
+	font-size: 14px;
+    line-height: 25px;
+    float:right;
+    margin:40px 300px 0 0;
+}
+#register form label input {
+	width:230px;
+	height:18px;
+	background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow:2px 2px 2px #f0f0f0 inset;
+    color: #333;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 18px;
+    margin: 0;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+#register form span {
+	width:300px;
+	display:inline-block;
+	color:#999;
+	font-size:12px;
+	margin:0 0 0 5px;
+}
+.btn {
+	border-radius: 2px;
+    font-size: 14px;
+    line-height: normal;
+    padding: 6px 18px;
+    background:url(../image/core_bg.png) 0 0 #f3f3f3;
+    border: 1px solid #b1aeae;
+    border-radius: 2px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+    overflow: visible;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#register .btn {
+	margin:20px 0 60px 115px;
+}
+#register img.vcode{
+	display: block;
+    float: left;
+    margin: 20px 0 0 114px;
+}
