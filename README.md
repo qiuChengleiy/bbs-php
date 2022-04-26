@@ -320,7 +320,9 @@ if ( $conn->connect_error ) {
 
 敢于尝试的你 其实已经进步了 ^_^
 
+#### 微信公众号
 
+![](https://www.qiuchenglei.top/img/wx.jpg)
 
 
 
